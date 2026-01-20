@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# monnte.cc
+
+Personal portfolio website built with Next.js, featuring a minimalist x.ai-inspired design.
+
+## Tech Stack
+
+- **Framework**: Next.js 16 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS 4 + Custom CSS
+- **Fonts**: Inter, Geist Mono
+- **Deployment**: Static Export
+
+## Features
+
+- Minimalist black/white design inspired by x.ai
+- Scroll-triggered animations using Intersection Observer
+- Dynamic experience data loaded from JSON
+- Responsive layout for all devices
+- Skeleton loading states
+- SEO optimized with meta tags
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+├── public/
+│   └── data/
+│       └── experiences.json    # Work experience data
+├── src/
+│   ├── app/
+│   │   ├── globals.css         # Global styles & animations
+│   │   ├── layout.tsx          # Root layout with fonts
+│   │   └── page.tsx            # Home page
+│   ├── components/
+│   │   ├── AnimateOnScroll.tsx # Scroll animation wrapper
+│   │   ├── BackgroundCanvas.tsx# Subtle grid background
+│   │   ├── Contact.tsx         # Contact links section
+│   │   ├── Experience.tsx      # Work experience timeline
+│   │   ├── Footer.tsx          # Footer component
+│   │   ├── Hero.tsx            # Hero section with profile
+│   │   ├── Stats.tsx           # Statistics section
+│   │   └── TechStack.tsx       # Skills/technologies grid
+│   └── types/
+│       └── experience.ts       # TypeScript types
+└── next.config.ts              # Next.js configuration
+```
 
-## Learn More
+## Customization
 
-To learn more about Next.js, take a look at the following resources:
+### Update Experience Data
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Edit `public/data/experiences.json` to update your work history:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```json
+{
+  "experiences": [
+    {
+      "id": 1,
+      "title": "Job Title",
+      "company": "Company Name",
+      "employmentType": "Full-time",
+      "location": "Location",
+      "period": {
+        "start": "Month Year",
+        "end": null
+      },
+      "current": true,
+      "responsibilities": ["Task 1", "Task 2"],
+      "technologies": ["Tech 1", "Tech 2"]
+    }
+  ]
+}
+```
 
-## Deploy on Vercel
+### Update Personal Info
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Hero**: Edit `src/components/Hero.tsx`
+- **Stats**: Edit `src/components/Stats.tsx`
+- **Tech Stack**: Edit `src/components/TechStack.tsx`
+- **Contact Links**: Edit `src/components/Contact.tsx`
+- **Metadata**: Edit `src/app/layout.tsx`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Update Styling
+
+- **Colors**: CSS variables in `src/app/globals.css` (`:root` section)
+- **Animations**: Keyframes in `src/app/globals.css`
+
+## Deployment
+
+The project is configured for static export. Build output is in the `out/` directory.
+
+```bash
+npm run build
+```
+
+Deploy to any static hosting:
+- **Vercel**: Connect repo for automatic deployments
+- **Netlify**: Drag & drop `out/` folder or connect repo
+- **GitHub Pages**: Push `out/` contents to `gh-pages` branch
+
+## License
+
+MIT
