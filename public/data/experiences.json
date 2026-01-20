@@ -1,0 +1,223 @@
+{
+  "experiences": [
+    {
+      "id": 1,
+      "title": "Co-Founder",
+      "company": "Mowo Games",
+      "employmentType": "Self-employed",
+      "location": "Remote",
+      "period": {
+        "start": "September 2025",
+        "end": null
+      },
+      "current": true,
+      "description": "We are a small team of developers who decided to rethink traditional game modes and founded our own studio. Very soon, you'll be able to play our creations.",
+      "responsibilities": [
+        "Leading game design and development initiatives",
+        "Managing project roadmap and technical architecture",
+        "Developing game engines and core systems",
+        "Overseeing team coordination and product vision"
+      ],
+      "technologies": ["C++", "3D Graphics", "Game Design", "Project Management", "Software Design"]
+    },
+    {
+      "id": 2,
+      "title": "Senior Full Stack Engineer & Designer",
+      "company": "Dizard Technologies",
+      "employmentType": "Freelance",
+      "location": "Greater Valencia Metropolitan Area · Remote",
+      "period": {
+        "start": "August 2025",
+        "end": null
+      },
+      "current": true,
+      "responsibilities": [
+        "Creating different design for company's website and applications",
+        "Developing website infrastructure",
+        "Developing REST API and backend services for web and applications",
+        "Configuring CI/CD in GitHub",
+        "Configuring web services and Linux system infrastructure (NGINX, PostgreSQL, PM2, etc.)"
+      ],
+      "technologies": ["Next.js", "Nest.js", "Graphic Design", "TypeScript", "Nginx", "SCSS", "Docker", "PM2", "Linux System Administration"]
+    },
+    {
+      "id": 3,
+      "title": "C++ Software Engineer",
+      "company": "Majestic Games",
+      "employmentType": "Contract",
+      "location": "Greater Valencia Metropolitan Area · Remote",
+      "period": {
+        "start": "January 2025",
+        "end": null
+      },
+      "current": true,
+      "responsibilities": [
+        "Developing multiplayer solutions, client/server and API modules",
+        "Developing communication parts and optimizing JavaScript native module performance",
+        "Developing desktop applications using Electron and NAPI libraries",
+        "Writing automation scripts",
+        "Configuring CI/CD workflows"
+      ],
+      "technologies": ["C++", "JavaScript", "Vue.js", "Docker", "NAPI", "V8", "Electron", "TypeScript", "C", "CEF", "Project Management", "Problem Solving", "Graphic Design"]
+    },
+    {
+      "id": 4,
+      "title": "C++ Developer",
+      "company": "alt:V Multiplayer",
+      "employmentType": "Contract",
+      "location": "Greater Valencia Metropolitan Area · Remote",
+      "period": {
+        "start": "January 2025",
+        "end": "August 2025"
+      },
+      "current": false,
+      "responsibilities": [
+        "Developing JavaScript scripting module using V8",
+        "Developing client and server core libraries",
+        "Configuring CI/CD workflows",
+        "Writing automation scripts"
+      ],
+      "technologies": ["C++", "V8", "JavaScript", "Docker", "Python"]
+    },
+    {
+      "id": 5,
+      "title": "Middle Full Stack Engineer",
+      "company": "IDO Cloud",
+      "employmentType": "Contract",
+      "location": "Valencia Metropolitan Area · Remote",
+      "period": {
+        "start": "September 2024",
+        "end": "January 2025"
+      },
+      "current": false,
+      "responsibilities": [
+        "Developing internal company tools using Angular/Vue and NestJs framework",
+        "Building multiplatform applications for iOS/Android using Ionic framework",
+        "Writing scripts using Python, using envoy proxy to configure gRPC connection with web applications",
+        "AWS Cloud management",
+        "Configuring Linux-based daemons",
+        "Writing complex SQL queries/functions inside PostgreSQL",
+        "Testing using Jest and Cypress framework"
+      ],
+      "technologies": ["Algorithm Design", "Machine Vision", "Deep Learning", "AWS", "Ionic Framework", "gRPC", "envoy", "Python", "Angular", "Vue.js", "Cypress", "Jest", "SQL", "PostgreSQL", "Linux"]
+    },
+    {
+      "id": 6,
+      "title": "Junior Full Stack Engineer",
+      "company": "IDO Cloud",
+      "employmentType": "Full-time",
+      "location": "Gdansk Metropolitan Area · Hybrid",
+      "period": {
+        "start": "January 2023",
+        "end": "September 2024"
+      },
+      "current": false,
+      "responsibilities": [
+        "Developing responsive user interfaces using Angular and Angular Material (up to 17 version)",
+        "Building backend applications using NestJS and Flask framework",
+        "Managing PostgreSQL/MySQL/Microsoft SQL Server databases",
+        "Integrating real-time Inter-process communication between Frontend and Backend applications operating on an embedded system",
+        "Deploying code changes to production and staging environments on an ongoing basis",
+        "Creating and maintaining technical documentation for both Frontend and Backend components",
+        "Configuring Linux based systems",
+        "Working with languages like JavaScript/TypeScript/Python",
+        "Using technologies like AWS/Docker/gRPC"
+      ],
+      "technologies": ["TypeScript", "Polish", "PostgreSQL", "Angular", "GitLab", "Vue.js", "REST APIs", "HTML", "JavaScript", "Full-Stack Development", "English", "AWS", "CSS", "Flask", "NestJS", "Ionic Framework", "Microsoft SQL Server", "Web Technologies", "GitHub", "NodeJS", "Code Review", "Vue", "Confluence", "Express.js", "SQL", "SASS", "Conflict Resolution", "gRPC", "Python"]
+    },
+    {
+      "id": 7,
+      "title": "Intern Game Developer",
+      "company": "Arcan Studios",
+      "employmentType": "Internship",
+      "location": "Granada, Andalusia, Spain · On-site",
+      "period": {
+        "start": "March 2024",
+        "end": "March 2024"
+      },
+      "current": false,
+      "duration": "1 month",
+      "responsibilities": [
+        "Create 2D sprites using Inkscape",
+        "Create 3D models with animations using Blender",
+        "Use blueprints in Unity to create games",
+        "Improve English level and learn Spanish"
+      ],
+      "technologies": ["Unity", "Blender", "Blueprint", "Inkscape"]
+    },
+    {
+      "id": 8,
+      "title": "Junior Frontend Developer",
+      "company": "IDO Electronics",
+      "employmentType": "Full-time",
+      "location": "Gdansk Metropolitan Area · On-site",
+      "period": {
+        "start": "August 2022",
+        "end": "January 2023"
+      },
+      "current": false,
+      "responsibilities": [
+        "Developing user interfaces using Angular and Angular Material (up to 14 version)",
+        "Structuring and creating applications from scratch, as well as maintaining legacy projects",
+        "Contributing to the development lifecycle, including implementation of unit testing methodologies"
+      ],
+      "technologies": ["TypeScript", "Polish", "Angular", "GitLab", "HTML", "CSS", "NodeJS", "Code Review", "Confluence", "SASS", "Conflict Resolution"]
+    },
+    {
+      "id": 9,
+      "title": "Intern Web Developer",
+      "company": "IDO Electronics",
+      "employmentType": "Internship",
+      "location": "Gdansk Metropolitan Area · On-site",
+      "period": {
+        "start": "June 2022",
+        "end": "August 2022"
+      },
+      "current": false,
+      "duration": "3 months",
+      "responsibilities": [
+        "Manage automation scripts using Google Scripts, to handle automatically creation of charts based on some data",
+        "Create Google Chrome Browser Extension for internal company time tracker tool, that shows work statuses of all employees",
+        "Improve skills in JavaScript and some APIs"
+      ],
+      "technologies": ["JavaScript", "API", "Chrome DevTools", "Google Apps Script"]
+    },
+    {
+      "id": 10,
+      "title": "Frontend Developer & Designer",
+      "company": "Freelance | Self Employed",
+      "employmentType": "Self-employed",
+      "location": "Gdansk Metropolitan Area · Remote",
+      "period": {
+        "start": "March 2021",
+        "end": "June 2022"
+      },
+      "current": false,
+      "responsibilities": [
+        "Developing frontend applications using Vue and Angular frameworks",
+        "Testing frontend applications using Cypress framework",
+        "Creating logos and design for other companies"
+      ],
+      "technologies": ["JavaScript", "Vue.js", "Angular", "Graphic Design"]
+    }
+  ],
+  "summary": {
+    "totalYearsOfExperience": 4,
+    "currentRoles": 3,
+    "industries": ["Game Development", "Software Engineering", "Web Development"],
+    "coreCompetencies": [
+      "C++ Development",
+      "Multiplayer Game Systems",
+      "Full-Stack Web Development",
+      "Graphics Programming",
+      "V8 Engine Development",
+      "Game Engine Development",
+      "DevOps & CI/CD",
+      "Linux System Administration",
+      "Cloud Infrastructure (AWS)",
+      "UI/UX Design"
+    ],
+    "languages": ["English", "Russian", "Spanish", "Ukrainian", "Polish"]
+  },
+  "lastUpdated": "2025-01-20T00:00:00.000Z"
+}
